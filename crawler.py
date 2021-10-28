@@ -108,7 +108,7 @@ while(i >= 0):
         tab_spell.append(truc[0: guillemets])
 
 #Le fichier de sortie du json
-filename = r"onlinespells2.json"
+filename = r"LastJson.json"
 file_path = Path.cwd().joinpath(filename)
 
 #Afin d'accélerer le processus, on crée des thread pour récupérer plusieurs informations à la fois
